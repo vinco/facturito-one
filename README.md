@@ -1,4 +1,4 @@
 facturito-one
 =============
 
-Directorio de páginas de facturación de diversos proveedores.
+Directorio de sitios de facturación electrónica de diversos proveedores en México.
