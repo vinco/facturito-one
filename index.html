@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Facturito One: facturación electrónica en México.</title>
+
+    <script data-require="angular.js@*" data-semver="1.2.9" src="http://code.angularjs.org/1.2.9/angular.min.js"></script>
+    <script data-require="jquery@*" data-semver="2.0.3" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script data-require="bootstrap@*" data-semver="3.0.2" src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+
+    <link data-require="bootstrap-css@3.0.2" data-semver="3.0.2" rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet/less" href="less/styles.less">
+
+    <script src="app/js/controllers.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.4.1/less.min.js"></script>
+
+    <meta name="description" content="Directorio de sitios de facturación electrónica de diversos proveedores en México.">
+  </head>
+
+  <body ng-app="FacturitoOne" ng-controller="AppCtrl">  
+    <div class="jumbotron">
+      <div class="container">
+        <h1><i class="fa fa-dot-circle-o"></i> Facturito One</h1>
+        <p>Directorio de sitios de facturación electrónica de diversos proveedores en México.</p>
+        <p>
+          <a href="#terms-of-use" class="btn btn-primary btn-lg"><i class="fa fa-file-text-o"></i> Términos de uso</a>
+          <a href="http://github.com/vinco/facturito-one" target="_blank" class="btn btn-primary btn-lg">
+            <i class="fa fa-github"></i> ¡Contribuye!
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+          <div class="well">
+            <h4><i class="fa fw fa-user"></i> Facturación sin registro</h4>
+            <h4><i class="fa fw fa-key"></i> Facturación con usuario registrado</h4>
+            <h4><i class="fa fw fa-clock-o"></i> Consulta</h4>
+            <h4><i class="fa fw fa-question-circle"></i> Ayuda o manuales</h4>
+          </div>
+
+          <div id="search-wrapper" class="input-group">
+            <span class="input-group-addon"><i class="fa fa-search"></i></span>
+            <input type="text" ng-model="search.name" class="form-control" placeholder="Buscar">
+          </div>
+
+          <ul id="services-list" class="list-group">
+            <li class="list-group-item" ng-repeat="service in services | filter:search | orderBy:'name'">
+              <h3>{{ service.name }}</h3>
+              <a ng-repeat="link in service.links" ng-href="{{ link.url }}" target="_blank" class="btn btn-default btn-lg">
+                <i class="fa" ng-class="icons[link.type]"></i><span ng-show="link.text">{{ link.text }}</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <a name="terms-of-use"></a>
+      <h2>Términos de uso</h2>
+
+      <p>Los nombres de productos y servicios aquí presentados con fines
+      informativos son marcas registradas, propiedad de la empresa
+      correspondiente. No implican aprobación, aval o certificación del servicio
+      o de la información proporcionada en sentido alguno.</p>
+
+      <p>Dado que los proveedores pueden cambiar las direcciones de sus sitios
+      de facturación electrónica en cualquier momento y sin aviso previo, no
+      podemos garantizar que la información presentada esté actualizada en todo
+      momento.</p>
+    </div>
+  </body>
+</html>
