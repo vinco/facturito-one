@@ -1,0 +1,169 @@
+[
+  {
+    "key": "7-eleven",
+    "name": "7-Eleven",
+    "links": [
+      {
+        "type": "unregistered-user",
+        "url": "https://www.e7-eleven.com.mx/facturacionelectronica/7-eleven/index.php"
+      }
+    ],
+    "info": [
+      "Número de ticket"
+    ]
+  },
+  {
+    "key": "costco",
+    "name": "Costco",
+    "links": [
+      {
+        "type": "registered-user",
+        "url": "http://www3.costco.com.mx/wps/portal/publico/PORTALSOCIOS/"
+      },
+      {
+        "type": "help",
+        "url": "http://www3.costco.com.mx/wps/portal/publico/!ut/p/a1/pZDBCoJAEIafxqszEuXaTQhMKxRC1L2ExrYK6sq65etnewtyC5rbDN8H__xAIQfal4-Gl6oRfdm-drq5uLET7j2CUXw6EvSD9ByFZOcEa5yBYhk4eO5fPib4m48L43_1M6AmRH9gAnREDRgyREB5KyrdZ-H31YpwoJLdmGTSvsv5XCs1jFsLLZymyeZC8JbZV9FZ-Empxaggfydh6NI0xybpMjI-AZuNlLk!/dl5/d5/L2dBISEvZ0FBIS9nQSEh/"
+      }
+    ]
+  },
+  {
+    "key": "extra",
+    "name": "Extra",
+    "links": [
+      {
+        "type": "unregistered-user",
+        "url": "https://facturacion.extra.com.mx/"
+      },
+      {
+        "type": "query",
+        "url": "https://facturacion.extra.com.mx/consultas_cliente.php",
+        "text": "Consulta por RFC"
+      }
+    ]
+  },
+  {
+    "key": "lumen",
+    "name": "Lumen",
+    "links": [
+      {
+        "type": "unregistered-user",
+        "url": "http://200.34.168.142/Ticket_LUMEN36/FrmFacturacion.aspx"
+      },
+      {
+        "type": "query",
+        "url": "http://200.34.168.22/Extraccion_LUMEN/frmLogin.aspx",
+        "text": "Consulta por RFC"
+      }
+    ]
+  },
+  {
+    "key": "office-depot",
+    "name": "Office Depot",
+    "links": [
+      {
+        "type": "unregistered-user",
+        "url": "http://store.officedepot.com.mx/OnlineStore/viewLoginRequestCFD.do"
+      },
+      {
+        "type": "query",
+        "url": "http://store.officedepot.com.mx/OnlineStore/viewLoginInvoicePOISearching.do",
+        "text": "Consulta por RFC o ITU"
+      },
+      {
+        "type": "help",
+        "url": "http://store.officedepot.com.mx/OnlineStore/Pages/ManUsrFacturacion/ManUsuFacturacion.html"
+      }
+    ]
+  },
+  {
+    "key": "office-max",
+    "name": "Office Max",
+    "links": [
+      {
+        "type": "unregistered-user",
+        "url": "https://utilerias.officemax.com.mx/fe_omx/"
+      },
+      {
+        "type": "help",
+        "url": "https://utilerias.officemax.com.mx/fe_omx/pdf/guiaRapida.pdf",
+        "text": "Guía rápida (PDF)"
+      }
+    ]
+  },
+  {
+    "key": "oxxo",
+    "name": "Oxxo",
+    "links": [
+      {
+        "type": "unregistered-user",
+        "url": "https://www4.oxxo.com/facturacion/fc.generarFactura"
+      },
+      {
+        "type": "registered-user",
+        "url": "https://www4.oxxo.com/facturacion/fc.login"
+      },
+      {
+        "type": "query",
+        "url": "https://www4.oxxo.com/facturacion/fc.reimprimir",
+        "text": "Reimpresión"
+      },
+      {
+        "type": "query",
+        "url": "https://negocios.buzonfiscal.com/dzpublic/search.mvc",
+        "text": "Descarga de factura generada en tienda"
+      }
+    ],
+    "info": [
+      "Fecha de compra (dd/mm/yyyy)",
+      "Folio de venta",
+      "Total de la compra",
+      "Captcha"
+    ]
+  },
+  {
+    "key": "sanborns",
+    "name": "Sanborns",
+    "links": [
+      {
+        "type": "unregistered-user",
+        "url": "http://facturaelectronica.sanborns.com.mx/CFDI_SN/Forms/einvoiceu.aspx",
+        "text": "Sanborn Hermanos. S.A. de C.V."
+      },
+      {
+        "type": "unregistered-user",
+        "url": "http://facturaelectronica.sanborns.com.mx/CFDI_DN/Forms/einvoiceu.aspx",
+        "text": "Administración Integral de Alimentos S.A de C.V."
+      },
+      {
+        "type": "query",
+        "url": "http://facturaelectronica.sanborns.com.mx/getcfd.aspx",
+        "text": "Consulta por RFC"
+      }
+    ],
+    "info": [
+      "Fecha (dd/mm/aaaa)",
+      "Transacción",
+      "Importe",
+      "Tienda",
+      "Terminal",
+      "Captcha"
+    ]
+  },
+  {
+    "key": "soriana",
+    "name": "Soriana",
+    "links": [
+      {
+        "type": "unregistered-user",
+        "url": "http://www1.soriana.com/site/default.aspx?p=9945"
+      },
+      {
+        "type": "registered-user",
+        "url": "http://www1.soriana.com/site/default.aspx?p=9942&temprefer=710352"
+      }
+    ],
+    "info": [
+      "Número de ticket"
+    ]
+  }
+]
