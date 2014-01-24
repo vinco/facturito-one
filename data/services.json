@@ -165,5 +165,35 @@
     "info": [
       "Número de ticket"
     ]
+  },
+  {
+    "key": "comercial-mexicana",
+    "name": "Comercial Mexicana",
+    "links": [
+      {
+        "type": "unregistered-user",
+        "url": "http://www.lacomer.com.mx/PresentarFacturaElectronicaWEB/AtencionClienteSrv"
+      },
+      {
+        "type": "registered-user",
+        "url": "http://www.comercialmexicana.com.mx/",
+        "text": "Sección 'Factura Electrónica'"
+      }
+    ]
+  },
+  {
+    "key": "wal-mart",
+    "name": "Wal-Mart",
+    "links": [
+      {
+        "type": "unregistered-user",
+        "url": "https://facturacion.walmartmexico.com.mx/"
+      },
+      {
+        "type": "help",
+        "url": "https://facturacion.walmartmexico.com.mx/Documentos/CFDI_Facturacion.pdf",
+        "text": "Manual (PDF)"
+      }
+    ]
   }
 ]
