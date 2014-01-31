@@ -195,5 +195,20 @@
         "text": "Manual (PDF)"
       }
     ]
+  },
+  {
+    "key": "superama",
+    "name": "Superama",
+    "links": [
+      {
+        "type": "unregistered-user",
+        "url": "https://facturacion.walmartmexico.com.mx/"
+      },
+      {
+        "type": "help",
+        "url": "https://facturacion.walmartmexico.com.mx/Documentos/CFDI_Facturacion.pdf",
+        "text": "Manual (PDF)"
+      }
+    ]
   }
 ]
