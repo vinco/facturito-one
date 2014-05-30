@@ -210,5 +210,125 @@
         "text": "Manual (PDF)"
       }
     ]
+  },
+  {
+    "key": "toks",
+    "name": "Toks",
+    "links": [
+      {
+        "type": "unregistered-user",
+        "url": "http://efactura.toks.com.mx:9443/portal/Toks/"
+      }
+    ]
+  },
+  {
+    "key": "vips",
+    "name": "Vips",
+    "links": [
+      {
+        "type": "unregistered-user",
+        "url": "https://facturacion.walmartmexico.com.mx/"
+      },
+      {
+        "type": "help",
+        "url": "https://facturacion.walmartmexico.com.mx/Documentos/CFDI_Facturacion.pdf",
+        "text": "Manual (PDF)"
+      }
+    ]
+  },
+  {
+    "key": "el-porton",
+    "name": "El Portón",
+    "links": [
+      {
+        "type": "unregistered-user",
+        "url": "https://facturacion.walmartmexico.com.mx/"
+      },
+      {
+        "type": "help",
+        "url": "https://facturacion.walmartmexico.com.mx/Documentos/CFDI_Facturacion.pdf",
+        "text": "Manual (PDF)"
+      }
+    ]
+  },
+  {
+    "key": "chilis",
+    "name": "Chili's",
+    "links": [
+      {
+        "type": "unregistered-user",
+        "url": "https://alsea.interfactura.com/RegistroDocumento.aspx?opc=Chilis"
+      }
+    ]
+  },
+  {
+    "key": "dominos-pizza",
+    "name": "Domino's Pizza",
+    "links": [
+      {
+        "type": "unregistered-user",
+        "url": "https://alsea.interfactura.com/RegistroDocumento.aspx?opc=Dominos"
+      }
+    ]
+  },
+  {
+    "key": "starbucks",
+    "name": "Starbucks",
+    "links": [
+      {
+        "type": "unregistered-user",
+        "url": "https://alsea.interfactura.com/RegistroDocumento.aspx?opc=Starbucks"
+      }
+    ]
+  },
+  {
+    "key": "burger-king",
+    "name": "Burger King",
+    "links": [
+      {
+        "type": "unregistered-user",
+        "url": "https://alsea.interfactura.com/RegistroDocumento.aspx?opc=BurgerKing"
+      }
+    ]
+  },
+  {
+    "key": "california-pizza-kitchen",
+    "name": "California Pizza Kitchen",
+    "links": [
+      {
+        "type": "unregistered-user",
+        "url": "https://alsea.interfactura.com/RegistroDocumento.aspx?opc=CPK"
+      }
+    ]
+  },
+  {
+    "key": "italiannis",
+    "name": "Italianni's",
+    "links": [
+      {
+        "type": "unregistered-user",
+        "url": "https://alsea.interfactura.com/RegistroDocumento.aspx?opc=Italiannis"
+      }
+    ]
+  },
+  {
+    "key": "pei-wei",
+    "name": "Pei Wei",
+    "links": [
+      {
+        "type": "unregistered-user",
+        "url": "https://alsea.interfactura.com/RegistroDocumento.aspx?opc=PeiWei"
+      }
+    ]
+  },
+  {
+    "key": "p-f-changs",
+    "name": "P.F. Chang's",
+    "links": [
+      {
+        "type": "unregistered-user",
+        "url": "https://alsea.interfactura.com/RegistroDocumento.aspx?opc=PFC"
+      }
+    ]
   }
 ]
